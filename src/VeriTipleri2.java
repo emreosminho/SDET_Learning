@@ -1,5 +1,5 @@
 public class VeriTipleri2 {
-    public static void main(String[] arhs) {
+    public static void main(String[] args) {
 
         byte vByte = 100; // max 127, min -128
         System.out.println(vByte);
