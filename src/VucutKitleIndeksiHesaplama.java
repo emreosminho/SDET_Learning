@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
-public class VucutKitlEndeksiHesaplama {
+public class VucutKitleIndeksiHesaplama {
     public static void main (String[] args) {
-        double boy, kilo, endeks;
+        double boy, kilo, indeks;
         Scanner input = new Scanner(System.in);
         System.out.print("Boyunuzu giriniz(metre cinsi): ");
         boy = input.nextDouble();
         System.out.print("Kilonuzu giriniz: ");
         kilo = input.nextDouble();
-        endeks = kilo / (boy*boy);
-        System.out.print("Vücut kitle endeksi: " + endeks);
+        indeks = kilo / (boy*boy);
+        System.out.print("Vücut kitle indeksi: " + indeks);
     }
 }
