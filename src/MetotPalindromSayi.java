@@ -1,6 +1,7 @@
 public class MetotPalindromSayi {
 
     static boolean isPolidrom(int number){
+        //Polidrom Sayi Hesaplama
         int temp = number, reverseNumber = 0, lastNumber;
         while (temp != 0){
             lastNumber = temp % 10;
