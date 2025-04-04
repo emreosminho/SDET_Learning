@@ -1,13 +1,17 @@
 package first;
 
 public class First {
-    private String str;
+    public String str;
 
-    First(String str){
+    public First(String str){
         this.str = str;
     }
 
-    void ShowStr(){
+    /* void ShowStr(){
         System.out.println(this.str);
+    } */
+
+    void show(){
+        this.show();
     }
 }
